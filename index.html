@@ -233,8 +233,8 @@ footer span { font-size: 0.78rem; color: rgba(255,255,255,0.28); font-weight: 30
 
 /* ANIMATIONS */
 @keyframes fu { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-.rv { opacity: 0; transform: translateY(20px); transition: opacity 0.65s ease, transform 0.65s ease; }
-.rv.on { opacity: 1; transform: translateY(0); }
+.rv { opacity: 1; transform: none; }
+.rv.on { opacity: 1; }
 
 /* ARROW SVG */
 .arr { display: inline-block; margin-left: 2px; transition: transform 0.2s ease; }
@@ -412,4 +412,4 @@ footer span { font-size: 0.78rem; color: rgba(255,255,255,0.28); font-weight: 30
 </footer>
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-const obs = new IntersectionObserver(entries =
+// const obs = new IntersectionObserver(entries =
